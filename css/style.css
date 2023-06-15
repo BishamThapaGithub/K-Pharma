@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+   
+}
+body{
+    background: linear-gradient(to right, rgb(255, 255, 255) ,rgb(49, 11, 199));
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: white;
+
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: #2c2c2c;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navbar a:hover{
+    color: #EE1C47;
+}
+.navicon{
+    display: flex;
+    align-items: center;
+
+}
+.navicon i{
+    margin: 20px;
+    font-size: 20px;
+    color: #2c2c2c;
+    font-weight: 400;
+    transition: all .42s ease;   
+
+}
+.navicon i:hover{
+    color: #EE1C47;
+}
+section{
+    padding: 5% 10%;
+
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+    
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+.main-text h5{
+    color: red;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.main-text h1{
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+.main-text p{
+    color: #333c56;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom:20px ;
+}
+
+.main-btn{
+    display:inline-block ;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding:  12px 25px;
+     transition: all .42s ease;
+}
+.main-btn:hover{
+    background-color: #000;
+    color: #fff;
+    
+}
+.main-btn i{
+    vertical-align: middle;
+}
+.main-card{
+    display: flex;
+    justify-content: space-between;
+}
