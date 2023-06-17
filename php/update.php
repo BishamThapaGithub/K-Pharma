@@ -61,12 +61,15 @@ if(isset($_POST['update_product'])){
    ?>
    
    <form action="" method="post" enctype="multipart/form-data">
-      <h3 class="title">update the product</h3>
+      <h3 class="title" >update the product</h3>
+      Product Name:
       <input type="text" class="box" name="product_name" value="<?php echo $row['product_name']; ?>" placeholder="enter the product name">
+      Product Price:
       <input type="number" min="0" class="box" name="product_price" value="<?php echo $row['product_price']; ?>" placeholder="enter the product price">
+      Product image:
       <input type="file" class="box" name="product_img"  accept="image/png, image/jpeg, image/jpg">
       <input type="submit" value="update product" name="update_product" class="btn">
-      <a href="addproduct.php" class="btn">go back!</a>
+      <a href="addproduct.php" class="btn" style="width: fit-content; margin-top:10px;" >go back!</a>
    </form>
    
 
