@@ -11,3 +11,58 @@
     
 </body>
 </html>
+
+
+<div class="form-container">
+    <h1>Prescription List</h1>
+    <div class="admin-product-form-container">
+
+
+
+        <?php
+
+        $select = mysqli_query($conn, "SELECT * FROM precription");
+        $sn = 1;
+
+        ?>
+        <div class="product-display">
+            <table class="product-display-table">
+                <thead>
+                    <tr>
+                        <th>S.N</th>
+                        <th>prescription name
+                        <th>Prescription data</th>
+                        <th>Description</th>
+                        <th>image</th>
+                       
+
+                    </tr>
+                </thead>
+                <?php while ($row = mysqli_fetch_assoc($select)) {
+
+                    ?>
+
+                    <tr>
+                        <td>
+                            <?php echo $sn++; ?>
+                        </td>
+
+                        <td>
+                            <?php echo $row['Username']; ?>
+                        </td>
+
+                        <td>
+                            <?php echo $row['p_date']; ?>
+                        </td>
+                        <td>
+                            <?php echo $row['description'] ?>
+                        </td>
+                  <td><img src="./prescription_img/<?php echo $row['p_img']; ?>" height="100"></td>
+                    
+
+                    </tr>
+                <?php } ?>
+            </table>
+        </div>
+
+    </div>
