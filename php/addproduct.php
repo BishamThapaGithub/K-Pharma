@@ -222,7 +222,7 @@ if (isset($_GET['delete'])) {
                      <svg>
                         <use xlink:href="#icon-plugins"></use>
                      </svg>
-                     <span>Analytics</span>
+                     <span>Prescriptions</span>
                   </a>
                </li>
                <li>

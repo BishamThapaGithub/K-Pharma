@@ -36,7 +36,7 @@
 </header><br><br><br><br><br><br><br><br>
   
 <div id="forms">
-<form method="POST" enctype="multipart/form-data">
+<form method="POST" enctype="multipart/form-data" action="./php/prescription.php">
     
    
     
@@ -58,22 +58,10 @@
         <textarea name="Description" placeholder="Medical details" id="Description" cols="30" rows="10"></textarea>
     </div><br>
     
-    <div>
-    <label>Gender:</label>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        <input type="radio" name="gender" id="male">
-        &nbsp;
-        <span id="male">Male</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="radio" name="gender" id="female">
-        &nbsp;
-        <span id="female">Female</span>
-        <br><br>
-    </div>
+   
     <div>
         <label for="" class="form_group"> prescription-img:</label><br>
-        <input type="file"  id="" class="" name="uploadedimg">
+        <input type="file"  id="" class="" name="uploadedimg" accept="image/jpg, image/png, image/jpeg" >
     </div><br>
      
     <input type="submit" class="submit" name="submit" value="submit">
