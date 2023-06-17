@@ -22,7 +22,7 @@ session_start();
     } else if($row['UserRole'] == "user") {
       $_SESSION['username'] = $row['Username'];
  
-      header('Location:product.html');
+      header('Location:userdb.php');
       exit();
      
     }
