@@ -135,7 +135,7 @@ include_once('connection.php');
 
 			<ul>
 				<li id="main-header__logo">
-					<a href="index.html">
+					<a href="./admindb.html">
 						<h1>KidsPharma</h1>
 					</a>
 				</li>
@@ -168,7 +168,7 @@ include_once('connection.php');
 				<ul>
 					<li class="menu-heading"><span>Manage</span></li>
 					<li>
-						<a href="index.html" class="active">
+						<a href="./admindb.html" class="active">
 							<svg>
 								<use xlink:href="#icon-dashboard"></use>
 							</svg>

@@ -138,7 +138,7 @@ $_SESSION['user_role'] = 'User';
 
             <ul>
                 <li id="main-header__logo">
-                    <a href="index.html">
+                    <a href="./admindb.html">
                     <h1>KidsPharma</h1>
                     </a>
                 </li>
@@ -170,7 +170,7 @@ $_SESSION['user_role'] = 'User';
                 <ul>
                     <li class="menu-heading"><span>Manage</span></li>
                     <li>
-                        <a href="#" class="active">
+                        <a href="./admindb.html" class="active">
                             <svg>
                                 <use xlink:href="#icon-dashboard"></use>
                             </svg>
@@ -186,7 +186,7 @@ $_SESSION['user_role'] = 'User';
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="prescriptionshow.php">
                             <svg>
                                 <use xlink:href="#icon-plugins"></use>
                             </svg>
