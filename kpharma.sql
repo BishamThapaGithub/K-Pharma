@@ -111,3 +111,75 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jun 17, 2023 at 03:55 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `kpharma`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `precription`
+--
+
+CREATE TABLE `precription` (
+  `ID` int(11) NOT NULL,
+  `Username` varchar(50) DEFAULT NULL,
+  `p_date` date DEFAULT NULL,
+  `description` varchar(200) DEFAULT NULL,
+  `p_img` varchar(200) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `precription`
+--
+
+INSERT INTO `precription` (`ID`, `Username`, `p_date`, `description`, `p_img`) VALUES
+(6, 'abcd', '4333-12-23', 'ergsytrsutrtur', 'wallpaper.jpg'),
+(7, 'abcd', '3233-12-23', '53434543', 'wallpaper.jpg'),
+(8, 'abcd', '3344-01-22', '342ewtrewftr', 'wallpaper.jpg'),
+(9, 'abcd', '0000-00-00', '3423423425', 'wallpaper.jpg');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `precription`
+--
+ALTER TABLE `precription`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `precription`
+--
+ALTER TABLE `precription`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
