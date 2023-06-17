@@ -202,7 +202,7 @@ if (isset($_GET['delete'])) {
             <ul>
                <li class="menu-heading"><span>Manage</span></li>
                <li>
-                  <a href="#" class="active">
+                  <a href="" class="active">
                      <svg>
                         <use xlink:href="#icon-dashboard"></use>
                      </svg>
@@ -218,7 +218,7 @@ if (isset($_GET['delete'])) {
                   </a>
                </li>
                <li>
-                  <a href="#">
+                  <a href="./prescriptionshow.php">
                      <svg>
                         <use xlink:href="#icon-plugins"></use>
                      </svg>
