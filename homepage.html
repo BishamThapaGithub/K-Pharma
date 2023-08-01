@@ -2,53 +2,176 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Kids Pharmacy</title>
+    <link rel="stylesheet" href="./css/newstyle.css">
+    <!-- Boxicons link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- remix icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&family=Poppins:wght@600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <!--font awsome cdn-->
-
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<header>
-    <a href="#" class="logo"><img src="./image/logo.jpg" alt=""></a>
-    
-<ul class="navbar">
-    <li><a href="homepage.html">Home</a></li>
-    <li><a href="#">Categories</a></li>
-    <li><a href="prescription.html">Prescription</a></li>
-    <li><a href="./php/productshow.php">Product</a></li>
-
-</ul>
-<div class="navicon">
-    <a href="#"><i class='bx bx-search'></i></a>
-    <a href="#"><i class='bx bx-user' ></i></a>
-    <a href="#"><i class='bx bx-cart' ></i></a>
-    <a href="#"><i class='bx bx-log-in'></i></a>
-</div>
-</header>
-<section  class="main-home">
-    <div class="main-text">
+    <header class="sticky">
+        <a href="#" class="logo"><img src="./image/logo.jpg" alt="" style="height: 40px; width: 40px;"></a>
+        <ul class="navbar">
+            <li><a href="homepage.html" class="underline">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="prescription.html">Prescription</a></li>
+            <li><a href="./php/productshow.php">Product</a></li>
         
-        <h1>KIDs Pharmacy</h1>
-        <p>Medicine comes with hope: the hope of having a healthy child, the hope of being able to raise your family.
-            </p>
-            <a href="signin.html" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
-    </div>
-    
-    
-</section>
+        </ul>
+        <div class="navicon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user' ></i></a>
+            <a href="#"><i class='bx bx-cart' ></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
 
-  
-  
-  
+    <section class="home">
+        <div class="home-text">
+            <h1>KIDs Pharmacy</h1>
+            <p style="color: aliceblue; font-style: italic; font-size: larger;">Medicine comes with hope: the hope of having a healthy child, the hope of being able to raise your family.
+                </p>
+                <a href="signin.html" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+
+    </section>
+
+    <section class="feature">
+        <div class="feature-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="./homeImage/f1.jpg" alt="">
+                </div>
+                <h4>Equipments</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="./homeImage/f2.jpg" alt="">
+                </div>
+                <h4>Medicines</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="./homeImage/f3.jpg" alt="">
+                </div>
+                <h4>Undergarments</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="./homeImage/f4.jpg" alt="">
+                </div>
+                <h4>Vitamins</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="./homeImage/f4.jpg" alt="">
+                </div>
+                <h4>Syrup</h4>
+            </div>
+                     <div class="row">
+                <div class="row-img">
+                    <img src="./homeImage/f3.jpg" alt="">
+                </div>
+                <h4>Syrup</h4>
+            </div>
+        </div>
+    </section>
+    <!--Pharmacies partnered with-->
+    <section class="partners">
+        <div class="p-text">
+            <h2> Our Partners </h2>
+        </div>
+        <div class="p-content">
+            <div class="box">
+                <img src="./homeImage/p1.jpeg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p2.jpeg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p3.jpeg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p4.jpeg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p5.jpg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p6.jpeg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p7.jpg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p8.jpg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p6.jpeg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            <div class="box">
+                <img src="./homeImage/p6.jpeg" alt="">
+                <h5>Smaagra Pharma</h5>
+                <h4>Maharajgunj</h4>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="footer-box">
+            <h3>Get to Know Us</h3>
+            <a href="#">About Kids Pharmacy</a>
+            <a href="#">Our Investors</a>
+            <a href="#">Blog</a>
+            
+        </div>
+        <div class="footer-box">
+            <h3>Need Help</h3>
+            <a href="#">Covid 19 emergency</a>
+            <a href="#">Returns and Replacements</a>
+            <a href="#">Shipping rates</a>
+                
+        </div>
+
+        <div class="footer-box">
+            
+            <h3>Contact us</h3>
+                <a href="#" style="display: flex;"><i class='bx bxs-phone-call'></i><p>+977 9845654533</p></a>
+        </div>
+    </section>
+    
+<div class="copyright">
+    <p>&copy; Copyright 2023 By Bisham Thapa</p>
 </div>
+
+    
+    <script src="./javascript/newscript.js"></script>
 </body>
 </html>

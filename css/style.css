@@ -116,3 +116,6 @@ section{
     display: flex;
     justify-content: space-between;
 }
+.underline {
+    border-style: inset;
+  }
